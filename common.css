@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'ffxiv-font';
+	src: url('./xiv-asas-r.woff2') format('woff2');
+	font-display: swap;
+	unicode-range: U+0-312F, U+3190-ABFF, U+D7B0-10FFFF;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+button {
+	color: inherit;
+}
+
+.macro-like {
+	font-family: ffxiv-font, 'Noto Sans';
+	white-space: pre;
+	line-height: 1.2;
+	font-size: 13px;
+}
